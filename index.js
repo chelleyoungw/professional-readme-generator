@@ -14,7 +14,18 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+    // Prompt the user with questions using inquirer
+    inquirer.prompt(questions).then((responses) => {
+
+        // Once the user has provided responses, proceed to generate the README file
+        console.log('Creating Your Professional README.md File...');
+        
+        // Write the README file to the filesystem
+        writeToFile('README.md', generateMarkdown({ ...responses }));
+    });
+}
 
 // Function call to initialize app
 init();
