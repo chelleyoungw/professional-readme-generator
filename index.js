@@ -13,7 +13,7 @@ function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// TODO: Create a function to initialize app
+// Initialize the app
 function init() {
 
     // Prompt the user with questions using inquirer
@@ -21,7 +21,7 @@ function init() {
 
         // Once the user has provided responses, proceed to generate the README file
         console.log('Creating Your Professional README.md File...');
-        
+
         // Write the README file to the filesystem
         writeToFile('README.md', generateMarkdown({ ...responses }));
     });
