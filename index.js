@@ -4,8 +4,57 @@ const inquirer = require('inquirer');
 const path = require('path');
 const generateMarkdown = require('../utilities/generateMarkdown');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+// Array of questions for user input
+const questions = [
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is your Project title?'
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is your project description?'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the installation instructions?'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'List the languages or technologies used to complete the Project?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which license do you want to use?',
+        choices: [
+            'Apache License 2.0',
+            'GNU General Public License v3.0',
+            'MIT License',
+            'Mozilla Public License 2.0',
+            'Boost Software License 1.0',
+            'The Unlicense'
+        ]
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Who or what resources contributed to your Project?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What are the different tests if applicable?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is valid email for users to send questions to?'
+    }
+];
 
 // Write README.md file synchronously. If the file does not exist, it will be created.
 // If the file exists, its contents are overwritten.
