@@ -7,7 +7,8 @@ By using your CLI, you can run this application and answer questions to fill out
 ## Visuals
 The following video shows how to create a README.md with this application. You can find the code to the web application by clicking the following link. https://github.com/chelleyoungw/professional-readme-generator.git
 
-[note-taker-video.webm](https://github.com/chelleyoungw/my-note-taker-using-express/assets/153236313/81bea330-0361-4927-9593-c2eb6834d73a)
+https://github.com/chelleyoungw/professional-readme-generator/assets/153236313/63c9ebd4-27c4-4796-acca-1f533cac57b1
+
 
 ## Table of Contents
 * [Installation](#installation)
