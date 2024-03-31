@@ -4,6 +4,11 @@
 ## Description
 By using your CLI, you can run this application and answer questions to fill out the different parts of a README.md in markdown.
 
+## Visuals
+The following video shows how to create a README.md with this application. You can find the code to the web application by clicking the following link. https://github.com/chelleyoungw/professional-readme-generator.git
+
+[note-taker-video.webm](https://github.com/chelleyoungw/my-note-taker-using-express/assets/153236313/81bea330-0361-4927-9593-c2eb6834d73a)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)

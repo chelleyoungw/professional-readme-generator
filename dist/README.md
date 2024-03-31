@@ -1,8 +1,8 @@
-# Professional README Generator
+# Make a Readme
 ![Github license](https://img.shields.io/badge/license-mit-blue.svg)
 
 ## Description
-By using your CLI, you can run this application and answer questions to fill out the different parts of a README.md in markdown.
+A README.md professional generator using a CLI.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,16 +13,16 @@ By using your CLI, you can run this application and answer questions to fill out
 * [Questions](#questions)
 
 ## Installation
-Install inquirer, npm i inquireer @8.2.4. Then invoke the application with node index.js
+Install inquirer and node.js
 
 ## Usage
-node, express.js
+Inquirer, node.js, Javascript
 
 ## License'mit'
 https://choosealicense.com/licenses/mit/
 
 ## Contributing
-Chat GPT, dopecello
+ChatGPT
 
 ## Tests
 n/a
