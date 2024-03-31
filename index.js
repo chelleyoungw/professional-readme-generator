@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const path = require('path');
-const generateMarkdown = require('../utilities/generateMarkdown');
+const generateMarkdown = require("../professional-readme-generator/utilities/generateMarkdown");
 
 // Array of questions for user input
 const questions = [
@@ -35,7 +35,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'Type in your email address.',
-    }
+    },
     {
         type: 'list',
         name: 'license',
@@ -82,7 +82,7 @@ function init() {
         console.log('Creating Your Professional README.md File...');
 
         // Write the README file to the filesystem
-        writeToFile('README.md', generateMarkdown({ ...responses }));
+        writeToFile('./professional-readme-generator/dist/README.md', generateMarkdown({ ...responses }));
     });
 }
 
