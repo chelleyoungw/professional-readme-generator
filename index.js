@@ -82,7 +82,7 @@ function init() {
         console.log('Creating Your Professional README.md File...');
 
         // Write the README file to the filesystem
-        writeToFile('./professional-readme-generator/dist/README.md', generateMarkdown({ ...responses }));
+        writeToFile('./dist/README.md', generateMarkdown({ ...responses }));
     });
 }
 
