@@ -9,23 +9,33 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is your Project title?'
+        message: 'What is your Project title?',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is your project description?'
+        message: 'What is your project description?',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the installation instructions?'
+        message: 'What are the installation instructions?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'List the languages or technologies used to complete the Project?'
+        message: 'List the languages or technologies used to complete the Project?',
     },
+    {
+        type: 'input',
+        name: 'creator',
+        message: 'Type in your GitHub username.',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Type in your email address.',
+    }
     {
         type: 'list',
         name: 'license',
