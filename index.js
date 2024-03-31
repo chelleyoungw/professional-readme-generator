@@ -41,12 +41,13 @@ const questions = [
         name: 'license',
         message: 'Which license do you want to use?',
         choices: [
-            'Apache License 2.0',
-            'GNU General Public License v3.0',
-            'MIT License',
-            'Mozilla Public License 2.0',
-            'Boost Software License 1.0',
-            'The Unlicense'
+            'APACHE2.0',
+            'Boost1.0',
+            'mit',
+            'MPL2.0',
+            'BSD2',
+            'BSD3',
+            'none',
         ]
     },
     {

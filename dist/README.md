@@ -1,8 +1,8 @@
-# jdfl;sa
-![License](https://img.shields.io/badge/License-${license}-blue.svg
+# Professional README Generator
+![Github license](https://img.shields.io/badge/license-mit-blue.svg)
 
 ## Description
-jfkld;sa
+By using your CLI, you can run this application and answer questions to fill out the different parts of a README.md in markdown.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,20 +13,20 @@ jfkld;sa
 * [Questions](#questions)
 
 ## Installation
-fjdkslal;
+Install inquirer, npm i inquireer @8.2.4. Then invoke the application with node index.js
 
 ## Usage
-fdjskla;
+node, express.js
 
-## License
-## License'Apache License 2.0'
+## License'mit'
+https://choosealicense.com/licenses/mit/
 
 ## Contributing
-kdkf
+Chat GPT, dopecello
 
 ## Tests
-fdsa
+n/a
 
 ## Questions
-Please send questions [here](mailto:chelleyoungw@gmail.com?subject=[github]%20Dev%20Connect) or visit [github/chelleyoungw](https://github.com/chelleyoungw).
+Please send questions to chelleyoungw@gmail.com or visit [github/chelleyoungw](https://github.com/chelleyoungw).
 
